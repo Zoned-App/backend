@@ -9,11 +9,21 @@
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "dotenv": "^16.0.0",
-    "express": "^4.18.0",
-    "jsonwebtoken": "^9.0.0"
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.3"
   },
   "devDependencies": {
-    "nodemon": "^3.0.0"
-  }
+    "nodemon": "^3.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zoned-App/backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zoned-App/backend/issues"
+  },
+  "homepage": "https://github.com/Zoned-App/backend#readme"
 }
