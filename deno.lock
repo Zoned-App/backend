@@ -1,0 +1,44 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@std/assert@1": "1.0.19",
+    "jsr:@std/internal@^1.0.12": "1.0.13",
+    "npm:@buf/zoned_protos.bufbuild_es@^2.12.0-20260429154343-08fae5a1cd71.1": "2.12.0-20260429154343-08fae5a1cd71.1_@bufbuild+protobuf@2.12.0",
+    "npm:@bufbuild/protobuf@^2.12.0": "2.12.0",
+    "npm:bcryptjs@^3.0.3": "3.0.3"
+  },
+  "jsr": {
+    "@std/assert@1.0.19": {
+      "integrity": "eaada96ee120cb980bc47e040f82814d786fe8162ecc53c91d8df60b8755991e",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.13": {
+      "integrity": "2f9546691d4ac2d32859c82dff284aaeac980ddeca38430d07941e7e288725c0"
+    }
+  },
+  "npm": {
+    "@buf/zoned_protos.bufbuild_es@2.12.0-20260429154343-08fae5a1cd71.1_@bufbuild+protobuf@2.12.0": {
+      "dependencies": [
+        "@bufbuild/protobuf"
+      ],
+      "tarball": "https://buf.build/gen/npm/v1/@buf/zoned_protos.bufbuild_es/-/zoned_protos.bufbuild_es-2.12.0-20260429154343-08fae5a1cd71.1.tgz"
+    },
+    "@bufbuild/protobuf@2.12.0": {
+      "integrity": "sha512-B/XlCaFIP8LOwzo+bz5uFzATYokcwCKQcghqnlfwSmM5eX/qTkvDBnDPs+gXtX/RyjxJ4DRikECcPJbyALA8FA=="
+    },
+    "bcryptjs@3.0.3": {
+      "integrity": "sha512-GlF5wPWnSa/X5LKM1o0wz0suXIINz1iHRLvTS+sLyi7XPbe5ycmYI3DlZqVGZZtDgl4DmasFg7gOB3JYbphV5g==",
+      "bin": true
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1",
+      "npm:@buf/zoned_protos.bufbuild_es@^2.12.0-20260429154343-08fae5a1cd71.1",
+      "npm:@bufbuild/protobuf@^2.12.0",
+      "npm:bcryptjs@^3.0.3"
+    ]
+  }
+}

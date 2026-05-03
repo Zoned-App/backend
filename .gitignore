@@ -1,2 +1,7 @@
+node_modules/
+
 *.env
-node_modules
+
+.vscode/
+.DS_Store
+thumbs.db
